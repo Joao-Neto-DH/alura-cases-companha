@@ -1,4 +1,4 @@
-// FAQScreen.js
+import PageTitle from "../../components/patterns/PageTitle";
 import Footer from '../../components/patterns/Footer';
 import Link from '../../components/Link';
 import { theme } from '../../theme/theme';
@@ -11,6 +11,7 @@ export default function FAQScreen({ pageProps: { faq } }) {
         backgroundColor: theme.colors.neutral["050"]
       }}
     >
+    <PageTitle>FAQ - Alura Cases</PageTitle>
       <Box
         as="main"
         styleSheet={{
