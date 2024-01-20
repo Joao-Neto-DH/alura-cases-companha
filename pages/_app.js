@@ -5,6 +5,8 @@ function MyApp({ Component, ...props }) {
     return (
         <>
             <Head>
+                {/*<!-- google search -->*/}
+                <meta name="google-site-verification" content="COR6tNpKmUw-EQhvWImjYDwLM9fl2UTTkQLas7kmZRw" />
                 {/* <!-- Google tag (gtag.js) --> */}
                 <script async src="https://www.googletagmanager.com/gtag/js?id=G-9RHYMM4753"></script>
                 <script dangerouslySetInnerHTML={{
